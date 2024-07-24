@@ -1,0 +1,105 @@
+*
+{
+    padding: 0px;
+    margin: 0px;
+}
+.banner
+{
+    height: auto;
+    width: 100%;
+    /* background-color: rebeccapurple; */
+    display: flex;
+    box-sizing: border-box;
+    margin-top: 50px;
+    padding-left: 40px;
+    padding-right: 30px;
+}
+.left
+{
+    position: relative;
+    height: auto;
+    width: 50%;
+    /* background-color: greenyellow; */
+    box-sizing: border-box;
+    font-family:"Poppins", sans-serif;
+    box-sizing: border-box;
+    padding-top: 20px;
+    
+}
+.left h1
+{
+    font-size: 35px;
+    font-weight: 600;
+}
+.left span
+{
+    color: rgb(253, 128, 226);
+}
+.left p
+{
+    box-sizing: border-box;
+    position: relative;
+    margin-top: 30px;
+    font-size: 18px;
+    justify-content: center;
+    /* background-color: red; */
+    text-align: justify;
+    font-weight: 500;
+    color: rgb(90, 88, 88);
+}
+.left input
+{
+    position: relative;
+    height: 30px;
+    width: 100%;
+    border: 1px solid gray;
+    border-radius: 4px;
+    border: none;
+    box-sizing: border-box;
+    padding-left: 5px;
+}
+.left input:focus
+{
+    outline: none
+}
+.email_section {
+    position: relative;
+    height: 40px;
+    width: 100%;
+    /* background-color: red; */
+    margin-top: 20px;
+    border-radius: 4px;
+    display: flex;
+    align-items: center;
+    box-sizing: border-box;
+    padding-left: 5px;
+    border: 1px solid gray;
+}
+.left button
+{
+    width: 100px;
+    height: 30px;
+    background-color: rgb(253, 128, 226);
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-family: "Poppins";
+    color: white;
+    font-weight: 600;
+    position: relative;
+    margin-top: 20px;
+}
+.right
+{
+    position: relative;
+    height: auto;
+    width: 45%;
+    /* background-color: red; */
+}
+.right img
+{
+    position: relative;
+    height: 400px;
+    width: 100%;
+    
+}

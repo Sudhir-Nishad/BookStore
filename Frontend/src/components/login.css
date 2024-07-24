@@ -1,0 +1,84 @@
+.email_wrapper
+{
+    margin-top: 20px;
+    position: relative;
+    height: auto;
+    width: 80%;
+    /* background-color: red; */
+}
+.email_wrapper h1
+{
+    font-family: "Poppins";
+    font-weight: 500;
+    color: rgb(113, 113, 113);
+}
+.email_wrapper .email
+{
+    margin-top: 5px;
+    position: relative;
+    width: 80%;
+    height: 30px;
+    border: 1px solid gray;
+    border-radius: 4px;
+    box-sizing: border-box;
+    padding-left: 5px;
+
+}
+.email_wrapper .email:focus
+{
+    outline: none;
+}
+
+.email_wrapper .password
+{
+    margin-top: 5px;
+    position: relative;
+    width: 80%;
+    height: 30px;
+    border: 1px solid gray;
+    border-radius: 4px;
+    box-sizing: border-box;
+    padding-left: 5px;
+}
+.email_wrapper .password:focus
+{
+    outline: none;
+}
+.login_signup_wrapper
+{
+    margin-top: 20px;
+    position: relative;
+    width: 100%;
+    height: 30px;
+    /* background-color: rgb(51, 153, 51); */
+    display: flex;
+    align-items:center;
+    justify-content: space-around;
+}
+.login_btn
+{
+    height: 100%;
+    width: 80px;
+    background-color: rgb(251, 122, 238);
+    border-radius: 4px;
+    font-family: "poppins";
+    /* font-size: 14px; */
+    font-weight: 600;
+    color: white;
+    transition: 0.2s;
+}
+.login_btn:hover
+{
+    background-color: rgb(253, 77, 236);
+}
+.login_signup_wrapper span
+{
+    text-decoration: underline;
+    color: rgb(59, 59, 251);
+    font-weight: 500;
+}
+.error {
+    color: red;
+    font-size: 0.8em;
+    margin-top: 0.2em;
+  }

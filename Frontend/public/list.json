@@ -1,0 +1,60 @@
+[
+    {
+        "id":1,
+        "name":"Story Book",
+        "title":"Enjoy ur life",
+        "price":0,
+        "category":"free",
+        "image":"book.jpg"
+    }
+    ,
+    {
+        "id":2,
+        "name":"Story Book",
+        "title":"Enjoy ur life",
+        "price":0,
+        "category":"free",
+        "image":"book.jpg"
+    }
+    ,{
+        "id":3,
+        "name":"Story Book",
+        "title":"Enjoy ur life",
+        "price":0,
+        "category":"free",
+        "image":"book.jpg"
+    }
+    ,{
+        "id":4,
+        "name":"Sport Book",
+        "title":"Field of dream",
+        "price":20,
+        "category":"sport",
+        "image":"book.jpg"
+    }
+    ,{
+        "id":5,
+        "name":"Entertainment Book",
+        "title":"Give some time to self",
+        "price":80,
+        "category":"Comedy",
+        "image":"book.jpg"
+    }
+    ,{
+        "id":6,
+        "name":"Biography Book",
+        "title":"Chapters of a life",
+        "price":100,
+        "category":"bio",
+        "image":"book.jpg"
+    },
+    {
+        "id":7,
+        "name":"Motivation",
+        "title":"Motivation is ultimate source of real energy",
+        "price":0,
+        "category":"free",
+        "image":"book.jpg"
+    }
+
+]

@@ -1,0 +1,9 @@
+/* body
+{
+    padding-left: 3%;
+    padding-right: 3%;
+} */
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;

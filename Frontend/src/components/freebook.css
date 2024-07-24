@@ -1,0 +1,30 @@
+.free_course
+{
+    box-sizing: border-box;
+    position: relative;
+    padding-left: 40px;
+    padding-right: 30px;
+}
+.free_course h1
+{
+    font-size: 25px;
+    font-family: "Pacifico", cursive;
+    /* background-color: red; */
+    margin-top: 20px;
+}
+.slider-container
+{
+    position: relative;
+    box-sizing: border-box;
+    padding-left: 40px;
+    padding-right: 30px;
+    margin-top: 10px;
+    /* background-color: rebeccapurple; */
+    height:auto;
+}
+/* custom-slick.css */
+
+.custom-slick .slick-prev:before,
+.custom-slick .slick-next:before {
+  color: rgb(246, 67, 225); /* Change this to your desired color */
+}

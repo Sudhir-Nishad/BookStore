@@ -1,0 +1,182 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+.navbar_wrapper {
+    height: 50px;
+    width: 100%;
+    /* background-color: rebeccapurple; */
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    top: 0; /* add this */
+    left: 0; /* add this */
+    z-index: 1; /* add this, optional but recommended */
+    box-sizing: border-box;
+    /* padding-left: 20px;
+    padding-right: 20px; */
+    z-index: 10;
+}
+.sticky-navbar
+{
+  position: sticky; /* or fixed, depending on your desired behavior */
+  top: 0;
+  z-index: 1; /* optional, but recommended to ensure the navbar stays on top */
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+  background-color: #feeafd; /* or any other color you've defined as `base-100` in your Tailwind config */
+  transition-duration: 300ms;
+  transition-property: all;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  
+}
+.logo
+{
+    position: relative;
+    width: 15%;
+    height: 90%;
+    /* background-color: yellow; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.logo h2
+{
+   font-family: "Kalnia Glaze", serif;
+   font-size: 25px;
+   font-weight: 600;
+}
+.menu
+{
+    position: relative;
+    height: 90%;
+    width: 70%;
+    /* background-color: green; */
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.menu_content
+{
+    position: relative;
+    height: 95%;
+    width: 70%;
+    /* background-color: yellow; */
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    gap: 5px;
+}
+.menu_content ul
+{
+    width: 60%;
+    display: flex;
+    /* background-color: aqua; */
+    align-content: center;
+    justify-content: space-around;
+}
+.menu_content ul li 
+{
+    list-style: none;
+    text-decoration: none;
+    
+}
+.menu_content ul li a{
+    text-decoration: none;
+    font-family:"Poppins", sans-serif;
+    color: rgb(104, 103, 103);
+    font-size: 14px;
+    font-weight: 500;
+
+}
+.menu_content .search
+{
+    position: relative;
+    height: 90%;
+    width: 35%;
+    /* background-color: rebeccapurple; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-sizing: border-box;
+}
+.search input
+{
+    position: relative;
+    height: 100%;
+    border-top: 1px solid gray;
+    border-left: 1px solid gray;
+    border-bottom: 1px solid gray;
+    border-right: 0px solid gray;
+    border-radius: 4px 0px 0px 4px;
+    text-align:left;
+    box-sizing: border-box;
+    padding-left: 10px;
+    
+}
+.search input:focus
+{
+    outline: none;
+}
+.search_dark_light
+{
+    position: relative;
+    height: 100%;
+    width: 20%;
+    /* background-color: violet; */
+    display: flex;
+    align-items:center;
+    justify-content: space-around;
+
+  
+}
+.search .search_logo
+{
+    position: relative;
+    height: 100%;
+    width: 20px;
+    background-color:white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    border-radius: 0px 4px 4px 0px;
+    border-top: 1px solid gray;
+    border-right: 1px solid gray;
+    border-bottom: 1px solid gray;
+    border-left: 0px solid gray;
+}
+.login_button
+{
+    position: relative;
+    height: 80%;
+    width: 40%;
+    border-radius: 6px;
+    border: none;
+    color: white;
+    background-color: black;
+    font-weight: 600;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    cursor: pointer;
+    transition: .5s;
+}
+.login_button:active
+{
+    transform: scale(1.1);
+}
+.dark_light
+{
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 20%;
+    /* background-color: red; */
+    height: 90%;
+    color: black;
+    cursor: pointer;
+}
+.dark_light .swap svg {
+    width: 1.5rem;  /* Adjust these values as needed */
+    height: 1.5rem;
+  }
