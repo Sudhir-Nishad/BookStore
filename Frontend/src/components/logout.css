@@ -1,0 +1,18 @@
+.logout_btn
+{
+    position: relative;
+    height: 80%;
+    width: 60px;
+    border-radius: 6px;
+    border: none;
+    color: white;
+    background-color: rgb(213, 2, 2);
+    font-weight: 600;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    cursor: pointer;
+    transition: .5s;
+}
+.logout_btn:active
+{
+    transform: scale(1.1);
+}

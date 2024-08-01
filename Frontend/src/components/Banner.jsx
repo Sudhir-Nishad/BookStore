@@ -15,7 +15,7 @@ export default function Banner() {
                     <input type="text" placeholder='Email' className='dark:bg-slate-900 dark:text-white'></input>
                 </div>
                 <button>
-                  Secondary
+                  Get started
                 </button>
             </div>
             <div className="right">

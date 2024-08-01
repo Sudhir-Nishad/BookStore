@@ -1,9 +1,25 @@
 // import React from 'react'
 import "./course.css";
-import list from "../../public/list.json";
+// import list from "../../public/list.json";
 import Cards from "./Cards";
-import {Link} from "react-router-dom"
+import { Link } from "react-router-dom";
+import axios from "axios";
+import { useEffect, useState } from "react";
+// to connect frontend with backend we will use axios
 export default function Course() {
+  const [book, setBook] = useState([]);
+  useEffect(() => {
+    const getBook = async () => {
+      try {
+        const res = await axios.get("http://localhost:4001/book");
+        console.log(res.data);
+        setBook(res.data);
+      } catch (error) {
+        console.log(error);
+      }
+    };
+    getBook();
+  },[]);
   return (
     <>
       <div className="course_container">
@@ -27,10 +43,12 @@ export default function Course() {
             marginTop: "40px",
           }}
         >
-          <Link to="/"><button className="back_btn">Back</button></Link>
+          <Link to="/">
+            <button className="back_btn">Back</button>
+          </Link>
         </div>
         <div className="card_wrapper">
-          {list.map((item) => (
+          {book.map((item) => (
             <Cards key={item.id} item={item} />
           ))}
         </div>
